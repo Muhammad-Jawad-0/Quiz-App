@@ -49,12 +49,12 @@
 
 // ------------------- fetch bhi promise return krta ha ----------------------
 
-fetch('https://jsonplaceholder.typicode.com/users')
-    .then((data) => {
-        return data.json()
-    })
-    .then(function (data) {
-        console.log(data, "<<< data")
-    }).catch(function (err) {
-        console.log(err, "<<< err")
-    })
+// fetch('https://jsonplaceholder.typicode.com/users')
+//     .then((data) => {
+//         return data.json()
+//     })
+//     .then(function (data) {
+//         console.log(data, "<<< data")
+//     }).catch(function (err) {
+//         console.log(err, "<<< err")
+//     })
